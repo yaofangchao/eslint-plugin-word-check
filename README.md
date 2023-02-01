@@ -45,7 +45,7 @@ Then configure the rules you want to use under the rules section.
 TODO: Run eslint-doc-generator to generate the rules list.
 <!-- end auto-generated rules list -->
 
-## Usage of rule sensitive symbol check
+## Usage of 'sensitive-symbol-check' rule
 
 ```json
 {
