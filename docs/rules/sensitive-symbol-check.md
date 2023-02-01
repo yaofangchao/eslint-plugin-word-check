@@ -24,12 +24,6 @@ Examples of **correct** code for this rule:
 
 ### Options
 
-{
-  sensitiveSymbols: []
-}
-
-SensitiveSymbols array contains the symbols you want to check in your project.
-
 Configure this rule under the rules section
 
 ```json
@@ -40,11 +34,22 @@ Configure this rule under the rules section
         }]
     }
 }
+```
 
 ## When Not To Use It
 
+If you want to turn the rule off ,set the rule ID equal to "off" or 0
 
+```json
+{
+    "rules": {
+        "word-check/sensitive-symbol-check": [0, {
+            "sensitiveSymbols": [""]
+        }]
+    }
+}
+```
 
 ## Further Reading
 
-If there are other links that describe the issue this rule addresses, please include them here in a bulleted list.
+
